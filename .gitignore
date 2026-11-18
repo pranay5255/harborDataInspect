@@ -1,0 +1,10 @@
+# Local environment, caches, and Jupyter runtime
+/.venv/
+/.jupyter/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Downloaded benchmark corpora, verifier caches, and derived data
+/data/raw/
+/data/derived/

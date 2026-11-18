@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Terminal-Bench 4.1",
+    "count": 66,
+    "cohort": "current",
+    "format": "harbor",
+    "location": "terminal-bench-4.1/tasks",
+    "source": "https://huggingface.co/datasets/harborframework/terminal-bench",
+    "revision": "c113b65be3040328e8d56a1361d90556d39ede4d"
+  },
+  {
+    "name": "DeepSWE 1.1",
+    "count": 113,
+    "cohort": "current",
+    "format": "deep",
+    "location": "deep-swe-1.1/deep-swe-1-1.parquet",
+    "source": "https://huggingface.co/datasets/luolc/deep-swe-1-1-materialized",
+    "revision": "1d44e226ccb93ebea6d8ff91dc0091fbec6494a5",
+    "upstream": {
+      "source": "https://github.com/datacurve-ai/deep-swe",
+      "revision": "435ee89ec2f2e2289f33b0da4f992f0b7b7266b9"
+    }
+  },
+  {
+    "name": "SWE-bench Pro V2",
+    "count": 642,
+    "cohort": "current",
+    "format": "pro",
+    "location": "swe-bench-pro/data/default/test-00000-of-00001.parquet",
+    "source": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+    "revision": "2d52cb3df914a3fcf80c7f66738b3a88ae37fc50"
+  },
+  {
+    "name": "SWE Atlas Q&A",
+    "count": 124,
+    "cohort": "current",
+    "format": "atlas_qa",
+    "location": "swe-atlas-qna/data/test/cae_qna_124_public.csv",
+    "source": "https://huggingface.co/datasets/ScaleAI/SWE-Atlas-QnA",
+    "revision": "fcdc7f8a9814e4c678c9a66d938d57afd67bc335"
+  },
+  {
+    "name": "SWE Atlas Test Writing",
+    "count": 90,
+    "cohort": "current",
+    "format": "harbor",
+    "location": "swe-atlas/data/tw",
+    "source": "https://github.com/scaleapi/SWE-Atlas",
+    "revision": "b3cdddf44414c0ccca50c6e89fe978bb4d844d26"
+  },
+  {
+    "name": "SWE Atlas Refactoring",
+    "count": 70,
+    "cohort": "current",
+    "format": "harbor",
+    "location": "swe-atlas/data/rf",
+    "source": "https://github.com/scaleapi/SWE-Atlas",
+    "revision": "b3cdddf44414c0ccca50c6e89fe978bb4d844d26"
+  },
+  {
+    "name": "SWE-Marathon 1.1",
+    "count": 20,
+    "cohort": "current",
+    "format": "harbor",
+    "location": "swe-marathon-1.1/tasks",
+    "source": "https://github.com/abundant-ai/swe-marathon",
+    "revision": "7bce7b29e1f2413633eb5ed6eb10dc2efb036712"
+  },
+  {
+    "name": "SWE-bench Verified",
+    "count": 500,
+    "cohort": "current",
+    "format": "verified",
+    "location": "swe-bench-verified/data/test-00000-of-00001.parquet",
+    "source": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified",
+    "revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a"
+  },
+  {
+    "name": "E2E-SWE",
+    "count": 186,
+    "cohort": "extension",
+    "format": "harbor",
+    "location": "e2e-swe/tasks",
+    "source": "https://github.com/facebookresearch/E2E-SWE",
+    "revision": "e696e96cb0f024d3231a9c1a41527c016d872f36"
+  },
+  {
+    "name": "Terminal-Bench 4.0",
+    "count": 66,
+    "cohort": "historical",
+    "format": "harbor",
+    "location": "terminal-bench-4.0/tasks",
+    "source": "https://huggingface.co/datasets/harborframework/terminal-bench",
+    "revision": "6637b03798cf840c3917694a6df5d8572cfae1d6"
+  },
+  {
+    "name": "SWE-bench Pro V1",
+    "count": 731,
+    "cohort": "historical",
+    "format": "pro",
+    "location": "swe-bench-pro/data/v1/test-00000-of-00001.parquet",
+    "source": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+    "revision": "2d52cb3df914a3fcf80c7f66738b3a88ae37fc50"
+  },
+  {
+    "name": "SWE-bench Pro V2 Hard",
+    "count": 51,
+    "cohort": "subset",
+    "format": "pro",
+    "location": "swe-bench-pro/data/hard/test-00000-of-00001.parquet",
+    "source": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+    "revision": "2d52cb3df914a3fcf80c7f66738b3a88ae37fc50"
+  }
+]
